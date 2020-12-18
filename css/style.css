@@ -1,0 +1,71 @@
+* {margin: 0;}
+html {font-size:10px;}
+body {font-size:1rem;}
+a {text-decoration:none;}
+
+
+header {width:100%; height:8rem; background-color:black;}
+header > nav {width:110rem; height:8rem; margin:auto; display:flex; justify-content:space-between; align-items:center;}
+
+header > nav > .menu {display: inline-block;}
+header > nav > .menu > ul {list-style: none;}
+header > nav > .menu > ul > li {float: left; margin: 0rem 1.7rem;}
+header > nav > .menu > ul > li > a
+ {color:#FFFF; font-family:'Noto Sans KR', sans-serif; font-size:20px; font-weight:400; letter-spacing:-0.03rem;}
+header > nav > .menu > ul > li > a:hover {color: #507dff;}
+
+
+#myvideo {left: 0; top: 0;min-width: 100%;min-height: 100%;}
+section > .undervideo {position: absolute; height: 85rem; width: 100%; overflow: hidden;}
+section > .keyvisual {position: relative; height:85rem; background-color: #000000; opacity: 0.6;}
+section > .keyvisual > .keyvisual_wrap {margin: auto; width: 102.4rem; height: 90rem;}
+section > .keyvisual > .keyvisual_wrap > .keyvisual_title {padding-top: 35rem;text-align: center;}
+
+
+section > .profile {background-image: url('../img/p_0.png'); height: 125rem;}
+section > .profile > .profile_wrap {margin: auto; width: 102.4rem;}
+section > .profile > .profile_wrap > .profile_01 {text-align:center; padding-top: 5rem}
+section > .profile > .profile_wrap > .profile_02 {text-align:center; padding-top: 6.7rem}
+section > .profile > .profile_wrap > .profile_03 {text-align:center; margin-top:}
+
+
+/*--웹--*/
+section > .w_1 {background-image: url('../img/w_1.jpg'); height: 90rem; width: 100%;}
+section > .w_1 > .w_1_wrap{margin: auto; width: 192rem; }
+section > .w_1 > .w_1_wrap > .w_1_tit {padding-top: 40rem; text-align: center;}
+
+section > .w_2 {background-color: #9fc8ff; height: 220rem;}
+section > .w_2 > .w_2_wrap {margin: auto; width: 192rem;}
+section > .w_2 > .w_2_wrap > .w_2_img {text-align: center; padding-top: 10rem;}
+section > .w_2 > .w_2_wrap > .w_2_txt {text-align: center; padding-top: 8rem;}
+
+
+/*--패키지--*/
+section > .pa_1 {background-image: url('../img/pa_1.jpg'); height: 90rem; width: 100%;}
+section > .pa_1 > .pa_1_wrap{margin: auto; width: 192rem; }
+section > .pa_1 > .pa_1_wrap > .pa_1_txt {padding-top: 40rem; text-align: center;}
+
+section > .pa_2 {background-color: #e1dcff; height: 100rem;}
+section > .pa_2 > .pa_2_wrap {margin: auto; width: 192rem;}
+section > .pa_2 > .pa_2_wrap > .pa_2_img {text-align: center;padding-top: 7.5rem;}
+section > .pa_2 > .pa_2_wrap > .pa_2_txt {text-align: center; padding-top: 3rem;}
+
+section > .pa_3 {background-color: #d0c8ff; height: 90rem;}
+section > .pa_3 > .pa_3_wrap {margin: auto; width: 192rem;}
+section > .pa_3 > .pa_3_wrap > .pa_3_img {text-align: center;padding-top: 10rem;}
+section > .pa_3 > .pa_3_wrap > .pa_3_txt {text-align: center; padding-top: 4rem;}
+
+/*--아이덴티티--*/
+section > .i_1 {background-image: url('../img/i_1.jpg'); height: 100rem; width: 100%;}
+section > .i_1 > .i_1_wrap{margin: auto; width: 192rem; }
+section > .i_1 > .i_1_wrap > .i_1_txt {padding-top: 40rem; text-align: center;}
+
+section > .i_2 {background-color: #ffddfa; height: 105rem;}
+section > .i_2 > .i_2_wrap {margin: auto; width: 192rem;}
+section > .i_2 > .i_2_wrap > .i_2_img {text-align: center;padding-top: 10rem;}
+section > .i_2 > .i_2_wrap > .i_2_txt {text-align: center; padding-top: 8rem;}
+
+footer{background-color: black; height: 10rem;}
+footer > .footer_wrap{margin: auto;width: 102.4rem;}
+footer > .footer_wrap > .footer_logo{float: right;padding-top: 4.2rem;}
+footer > .footer_wrap > .footer_txt{float: left;padding-top: 3rem;text-align: left;font-family: 'Noto Sans KR', sans-serif;font-size: 1.6rem;font-weight: 300;letter-spacing: -0.03rem;color: #ffffff;}

@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="ko" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Yourim Portfolio</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/aos.css">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+ </head>
+  <body>
+
+    <script type="text/javascript"> var UserAgent = navigator.userAgent; if (UserAgent.match(/iPhone|ipad|Android|Windows CE|BlackBerry|Symbian|Windows Phone|webOS|Opera Mini|Opera Mobi|POLARIS|IEMobile|lgtelecom|nokia|SonyEricsson/i) != null || UserAgent.match(/LG|SAMSUNG|Samsung/) != null) { location.href = "m_index.html"; }
+    </script>
+
+    <header><!--메뉴-->
+      <nav>
+        <div class="logo">
+          <img src="img/logo.png" alt="로고">
+        </div>
+        <div class="menu">
+          <ul>
+            <li><a onclick="fnMove('1')">web</a></li>
+            <li><a onclick="fnMove('2')">Package</a></li>
+            <li><a onclick="fnMove('3')">Identity</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+
+    <section>
+      <div class="undervideo"><!--동영상-->
+       <video autoplay muted loop id="myvideo">
+         <source src="mov/1.mp4" type="video/mp4">
+           Your browser does not support HTML5 video.
+       </video>
+      </div>
+
+       <div class="keyvisual"><!--키비주얼-->
+         <div class="keyvisual_wrap">
+           <div class="keyvisual_title">
+             <img src="img/v_tit.png" alt="타이틀">
+           </div>
+         </div>
+       </div>
+
+      <div class="profile"><!--프로필 부문-->
+        <div class="profile_wrap" id="myvideo">
+          <div class="profile_01" data-aos="fade-up" ><img src="img/p_1.png" alt="사진,인적사항"></div>
+          <div class="profile_02" data-aos="fade-up" ><img src="img/P_2.png" alt="학교,경력"></div>
+          <div class="profile_03" data-aos="fade-up" ><img src="img/P_3.png" alt="기술,성격"></div>
+        </div>
+      </div>
+
+      <!--웹-->
+      <div class="w_1" id="anchor1">
+        <div class="w_1_wrap">
+          <div class="w_1_tit"><img src="img/w_1_t.png" alt="웹디자_"></div>
+        </div>
+      </div>
+      <div class="w_2">
+        <div class="w_2_wrap">
+          <div class="w_2_img"  data-aos="zoom-out-up" ><img src="img/w_2.jpg" alt=""></div>
+          <div class="w_2_txt" data-aos="fade-up" ><img src="img/w_2_t.png" alt=""></div>
+        </div>
+      </div>
+
+      <!--패키지-->
+       <div class="pa_1" id="anchor2">
+        <div class="pa_1_wrap">
+          <div class="pa_1_txt"><img src="img/pa_1_t.png" alt=""></div>
+        </div>
+
+       </div>
+       <div class="pa_2">
+        <div class="pa_2_wrap">
+          <div class="pa_2_img" data-aos="zoom-out-up" ><img src="img/pa_2.png" alt=""></div>
+          <div class="pa_2_txt" data-aos="fade-up" ><img src="img/pa_2_t.png" alt=""></div>
+        </div>
+       </div>
+
+       <div class="pa_3">
+        <div class="pa_3_wrap">
+          <div class="pa_3_img" data-aos="zoom-out-up"><img src="img/pa_3.png" alt=""></div>
+          <div class="pa_3_txt" data-aos="fade-up" ><img src="img/pa_3_t.png" alt=""></div>
+        </div>
+       </div>
+
+       <!--아이덴티티-->
+        <div class="i_1" id="anchor3">
+         <div class="i_1_wrap">
+           <div class="i_1_txt"><img src="img/i_1_t.png" alt=""></div>
+         </div>
+       </div>
+
+        <div class="i_2">
+         <div class="i_2_wrap">
+           <div class="i_2_img" data-aos="zoom-out-up"><img src="img/i_2.png" alt=""></div>
+           <div class="i_2_txt" data-aos="fade-up"><img src="img/i_2_t.png" alt=""></div>
+         </div>
+        </div>
+      </section>
+
+    <!--푸터 부문-->
+    <footer>
+      <div class="footer_wrap">
+        <span class="footer_logo"><img src="img/logo_f.png" alt="footer"></span>
+        <span class="footer_txt">
+          Copyright 2020 Yurim choi. All right reserved.
+          <br>me_28@naver.com
+        </span>
+      </div>
+    </footer>
+
+     <!--스크롤 스크립트-->
+        <script type="text/javascript" src="js/jquery-latest.js"></script>
+        <script>
+          function fnMove(seq){
+            var offset = $("#anchor" + seq).offset();
+            $('html,body').animate({scrollTop : offset.top}, 1200);
+          }
+        </script>
+
+        <!--AOS 스크립트-->
+        <script type="text/javascript" src="js/aos.js"></script>
+        <script>
+          AOS.init({
+            easing: 'ease-in-out-sine'
+          });
+        </script>
+  </body>
+  </html>
